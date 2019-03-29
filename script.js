@@ -11,7 +11,7 @@ $("#go").click(function(){
 
 
     $.ajax({
-        url:"http://itunes.apple.com/search?term=" + artist,
+        url:"https://itunes.apple.com/search?term=" + artist,
         dataType: "jsonp",
         success:callBack,
 
